@@ -14,7 +14,7 @@
       <label for="name">Nome / Razão Social</label>
       <input type="text" class="form-control" name="customer['name']" value="<?php echo $customer['name']; ?>">
     </div>
-
+    
     <div class="form-group col-md-3">
       <label for="campo2">CNPJ / CPF</label>
       <input type="text" class="form-control" name="customer['cpf_cnpj']" value="<?php echo $customer['cpf_cnpj']; ?>">

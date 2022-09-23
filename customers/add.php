@@ -1,4 +1,7 @@
-
+<?php 
+  require_once('functions.php');
+?>
+<?php include(HEADER_TEMPLATE); ?>
   <div class="row">
     <div class="form-group col-md-3">
       <label for="campo1">Município</label>
@@ -33,7 +36,7 @@
   
   <div id="actions" class="row">
     <div class="col-md-12">
-      <button type="submit" class="btn btn-primary">Salvar</button>
+      <button type="submit" class="btn btn-primary" action="functions.php?add()">Salvar</button>
       <a href="index.php" class="btn btn-default">Cancelar</a>
     </div>
   </div>
